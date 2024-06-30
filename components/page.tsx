@@ -11,11 +11,11 @@ const Page = ({ title, children }: Props) => (
 	<>
 		{title ? (
 			<Head>
-				<title>Rice Bowl | {title}</title>
+				<title>People Wheel | {title}</title>
 			</Head>
 		) : null}
 
-		<Appbar />
+		{/* <Appbar /> */}
 
 		<main
 			/**
@@ -27,7 +27,7 @@ const Page = ({ title, children }: Props) => (
 			<div className='p-6'>{children}</div>
 		</main>
 
-		<BottomNav />
+		{/* <BottomNav /> */}
 	</>
 )
 
