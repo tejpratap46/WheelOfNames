@@ -102,8 +102,7 @@ const WheelOfNames = () => {
 			} else {
 				setSpinning(false)
 				setWinner(names[winningIndex])
-				alert(names[winningIndex].name)
-				alert(extraAngle)
+				alert('winner is: ' + names[winningIndex].name)
 				canvasRef.current!!.style.transform = `rotate(0deg)`
 			}
 		}
